@@ -64,9 +64,14 @@ export default function Hero() {
           nel cuore di Pinerolo.
         </p>
 
-        <button className="mt-8 bg-white text-black px-10 py-3 rounded-full font-medium hover:bg-gray-200 transition shadow-lg">
+        <a
+          href="https://wa.me/39NUMERO?text=Ciao%20vorrei%20prenotare%20un%20tavolo%20da%20Connubio"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-8 inline-block bg-white text-black px-10 py-3 rounded-full font-medium hover:bg-gray-200 transition shadow-lg"
+        >
           Prenota un tavolo
-        </button>
+        </a>
 
       </div>
 
