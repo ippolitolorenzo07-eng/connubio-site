@@ -1,3 +1,5 @@
+"use client"
+
 export default function PrenotaPage() {
   return (
     <main className="min-h-screen bg-black text-white flex items-center justify-center p-6">
@@ -14,28 +16,10 @@ export default function PrenotaPage() {
           Prenota un tavolo
         </h1>
 
-        <input
-          type="text"
-          placeholder="Nome"
-          className="w-full p-3 rounded bg-black border border-gray-700"
-        />
-
-        <input
-          type="tel"
-          placeholder="Telefono"
-          className="w-full p-3 rounded bg-black border border-gray-700"
-        />
-
-        <input
-          type="date"
-          className="w-full p-3 rounded bg-black border border-gray-700"
-        />
-
-        <input
-          type="number"
-          placeholder="Numero persone"
-          className="w-full p-3 rounded bg-black border border-gray-700"
-        />
+        <input type="text" placeholder="Nome" className="w-full p-3 rounded bg-black border border-gray-700" />
+        <input type="tel" placeholder="Telefono" className="w-full p-3 rounded bg-black border border-gray-700" />
+        <input type="date" className="w-full p-3 rounded bg-black border border-gray-700" />
+        <input type="number" placeholder="Numero persone" className="w-full p-3 rounded bg-black border border-gray-700" />
 
         <button
           type="submit"
