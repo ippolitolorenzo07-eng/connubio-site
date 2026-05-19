@@ -68,8 +68,9 @@ export default function Hero() {
           href="https://wa.me/39NUMERO?text=Ciao%20vorrei%20prenotare%20un%20tavolo"
           target="_blank"
           rel="noopener noreferrer"
+          className="inline-block mt-8 bg-white text-black px-10 py-3 rounded-full font-medium hover:bg-gray-200 transition shadow-lg"
         >
-          Prenota un tavolo
+          Prenota su WhatsApp
         </a>
 
       </div>
