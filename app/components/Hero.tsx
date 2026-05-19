@@ -65,7 +65,7 @@ export default function Hero() {
         </p>
 
         <a
-          href="./prenota/page"
+          href="./prenota"
           className="mt-8 inline-block bg-white text-black px-10 py-3 rounded-full font-medium hover:bg-gray-200 transition shadow-lg"
         >
           Prenota un tavolo
