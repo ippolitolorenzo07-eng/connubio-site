@@ -7,11 +7,13 @@ export default function Home() {
       <Hero />
       <Experience />
       <a
-        href="https://wa.me/39NUMERO"
-        className="fixed bottom-5 right-5 bg-green-500 text-white px-5 py-3 rounded-full shadow-lg"
+        href="https://wa.me/39NUMERO?text=Ciao%20vorrei%20prenotare%20un%20tavolo%20da%20Connubio"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-block mt-8 bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-full text-lg transition"
       >
-       Prenota
-    </a>
+        Prenota un tavolo
+      </a>
     </main>
   )
 }
